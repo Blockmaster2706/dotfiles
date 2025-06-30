@@ -1,6 +1,6 @@
 # Starter
 
-A basic widget pack for testing and development.
+A basic widget pack for testing and development. [Original](https://github.com/glzr-io/zebar/tree/f1a32155a269adfa508455c989cdba4126178c74/resources/starter)
 
 ## Widgets
 
