@@ -7,3 +7,4 @@ kde
 wofi
 waybar
 swaync
+wal
