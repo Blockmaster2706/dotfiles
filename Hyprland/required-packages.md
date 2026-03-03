@@ -2,3 +2,8 @@ hypridle
 hyprland
 hyprlock
 hyprpaper
+kitty
+kde
+wofi
+waybar
+swaync
