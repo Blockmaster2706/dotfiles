@@ -1,0 +1,4 @@
+hypridle
+hyprland
+hyprlock
+hyprpaper

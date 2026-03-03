@@ -1,0 +1,144 @@
+[ColorEffects%3ADisabled]
+Color=56, 56, 56
+ColorAmount=0
+ColorEffect=0
+ContrastAmount=0.65
+ContrastEffect=0
+IntensityAmount=0.1
+IntensityEffect=0
+
+[ColorEffects%3AInactive]
+ChangeSelectionColor=true
+Color=112, 111, 110
+ColorAmount=-0.9500000000000001
+ColorEffect=0
+ContrastAmount=0.1
+ContrastEffect=0
+Enable=true
+IntensityAmount=0
+IntensityEffect=0
+
+[ColorEffects:Inactive]
+ChangeSelectionColor=true
+
+[ColorScheme]
+active_colors=#ff813464, #ff79afce, #ffd0e8fa, #ffa6d8f7, #ff367d9e, #ff4eb5e5, #ff813464, #ffffffff, #ff813464, #ff92cef8, #fe92cef8, #ff204b5f, #ffaedef8, #ff7f3364, #ffb1c7f0, #ffaeb1f0, #ff92d2f8, #ffffffff, #ff92d2f8, #ff813464, #ff476779, #ffaedef8
+disabled_colors=#ff813464, #ff79afce, #ffd0e8fa, #ffa6d8f7, #ff367d9e, #ff4eb5e5, #ff813464, #ffffffff, #ff813464, #ff2d414c, #ff92cef8, #ff204b5f, #ff90d0f6, #ff813464, #ffb1c7f0, #ffaeb1f0, #ff92d2f8, #ffffffff, #ff92d2f8, #ff813464, #ff476779, #ff90d0f6
+inactive_colors=#ff813464, #ff79afce, #ffd0e8fa, #ffa6d8f7, #ff367d9e, #ff4eb5e5, #ff813464, #ffffffff, #ff813464, #ff92cef8, #ff92cef8, #ff204b5f, #ffa9dcf8, #ff813464, #ffb1c7f0, #ffaeb1f0, #ff92d2f8, #ffffffff, #ff92d2f8, #ff813464, #ff476779, #ffa9dcf8
+
+[Colors%3AButton]
+BackgroundAlternate=121, 175, 206
+BackgroundNormal=121, 175, 206
+DecorationFocus=199, 80, 157
+DecorationHover=129, 52, 100
+ForegroundActive=129, 52, 100
+ForegroundInactive=71, 103, 121
+ForegroundLink=177, 199, 240
+ForegroundNegative=0, 0, 0
+ForegroundNeutral=0, 0, 0
+ForegroundNormal=129, 52, 100
+ForegroundPositive=0, 0, 0
+ForegroundVisited=174, 177, 240
+
+[Colors%3AComplementary]
+BackgroundAlternate=146, 210, 248
+BackgroundNormal=146, 210, 248
+DecorationFocus=61, 174, 233
+DecorationHover=61, 174, 233
+ForegroundActive=61, 174, 233
+ForegroundInactive=161, 169, 177
+ForegroundLink=29, 153, 243
+ForegroundNegative=218, 68, 83
+ForegroundNeutral=246, 116, 0
+ForegroundNormal=127, 51, 100
+ForegroundPositive=39, 174, 96
+ForegroundVisited=155, 89, 182
+
+[Colors%3AHeader]
+BackgroundAlternate=146, 210, 248
+BackgroundNormal=146, 210, 248
+DecorationFocus=61, 174, 233
+DecorationHover=61, 174, 233
+ForegroundActive=61, 174, 233
+ForegroundInactive=129, 52, 100
+ForegroundLink=29, 153, 243
+ForegroundNegative=218, 68, 83
+ForegroundNeutral=246, 116, 0
+ForegroundNormal=129, 52, 100
+ForegroundPositive=39, 174, 96
+ForegroundVisited=155, 89, 182
+
+[Colors%3ASelection]
+BackgroundAlternate=174, 222, 248
+BackgroundNormal=174, 222, 248
+DecorationFocus=199, 80, 157
+DecorationHover=129, 52, 100
+ForegroundActive=129, 52, 100
+ForegroundInactive=161, 169, 177
+ForegroundLink=177, 199, 240
+ForegroundNegative=0, 0, 0
+ForegroundNeutral=0, 0, 0
+ForegroundNormal=127, 51, 100
+ForegroundPositive=0, 0, 0
+ForegroundVisited=174, 177, 240
+
+[Colors%3ATooltip]
+BackgroundAlternate=146, 210, 248
+BackgroundNormal=146, 210, 248
+DecorationFocus=199, 80, 157
+DecorationHover=129, 52, 100
+ForegroundActive=129, 52, 100
+ForegroundInactive=71, 103, 121
+ForegroundLink=177, 199, 240
+ForegroundNegative=0, 0, 0
+ForegroundNeutral=0, 0, 0
+ForegroundNormal=129, 52, 100
+ForegroundPositive=0, 0, 0
+ForegroundVisited=174, 177, 240
+
+[Colors%3AView]
+BackgroundAlternate=146, 210, 248
+BackgroundNormal=146, 210, 248
+DecorationFocus=199, 80, 157
+DecorationHover=129, 52, 100
+ForegroundActive=129, 52, 100
+ForegroundInactive=71, 103, 121
+ForegroundLink=177, 199, 240
+ForegroundNegative=0, 0, 0
+ForegroundNeutral=0, 0, 0
+ForegroundNormal=129, 52, 100
+ForegroundPositive=0, 0, 0
+ForegroundVisited=174, 177, 240
+
+[Colors%3AWindow]
+BackgroundAlternate=146, 210, 248
+BackgroundNormal=144, 208, 246
+DecorationFocus=199, 80, 157
+DecorationHover=129, 52, 100
+ForegroundActive=129, 52, 100
+ForegroundInactive=71, 103, 121
+ForegroundLink=177, 199, 240
+ForegroundNegative=0, 0, 0
+ForegroundNeutral=0, 0, 0
+ForegroundNormal=129, 52, 100
+ForegroundPositive=0, 0, 0
+ForegroundVisited=174, 177, 240
+
+[General]
+ColorScheme=BreezeDark
+Name=Breeze Pastel
+TintFactor=0.15
+TitlebarIsAccentColored=false
+shadeSortColumn=true
+type=dark
+
+[KDE]
+contrast=4
+
+[WM]
+activeBackground=39, 44, 49
+activeBlend=252, 252, 252
+activeForeground=252, 252, 252
+inactiveBackground=32, 36, 40
+inactiveBlend=161, 169, 177
+inactiveForeground=161, 169, 177
