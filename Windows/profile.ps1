@@ -1,5 +1,3 @@
-oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\my-themes.omp.json" | Invoke-Expression
-
 function bundle_sst {
 	mkdir $HOME\AppData\Local\Temp\SST_Build\
 	Robocopy .\src-tauri\target\release\Redistributables $HOME\AppData\Local\Temp\SST_Build\Redistributables /E
@@ -50,7 +48,7 @@ function Invoke-MyCustomCD {
     }
     else {
         # Handle 'cd' with no arguments (goes to home directory)
-        Microsoft.PowerShell.Management\Set-Location
+        Microsoft.PowerShell.Management\Set-Location ~
     }
 }
 
@@ -59,9 +57,9 @@ function Invoke-MyCustomCD {
 # Ensure the function above is defined before these alias commands.
 
 # Forcefully remove the existing 'cd' alias if it exists.
-if (Get-Alias -Name cd -ErrorAction SilentlyContinue) {
-    Remove-Alias -Name cd -Force
-}
+# if (Get-Alias -Name cd -ErrorAction SilentlyContinue) {
+#     Remove-Alias -Name cd -Force
+# }
 
 # Create the new alias for 'cd' to point to your custom function.
 Set-Alias -Name cd -Value Invoke-MyCustomCD -Option AllScope -Force -Description "Custom CD handler with multiple shortcuts"
@@ -203,10 +201,12 @@ function Invoke-MyCustomLS {
 # The helper function and Invoke-MyCustomLS must be defined above this line.
 
 # Forcefully remove the existing 'ls' alias if it exists.
-if (Get-Alias -Name ls -ErrorAction SilentlyContinue) {
-    Remove-Alias -Name ls -Force
-}
+# if (Get-Alias -Name ls -ErrorAction SilentlyContinue) {
+#     Remove-Alias -Name ls -Force
+# }
 
 # Create the new alias for 'ls' to point to your custom function.
 Set-Alias -Name ls -Value Invoke-MyCustomLS -Option AllScope -Force -Description "Custom LS handler for -lha argument"
 # --- END ALIAS SETUP ---
+
+Set-Alias -Name vim -Value nvim
