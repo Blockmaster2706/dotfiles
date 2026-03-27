@@ -2,9 +2,10 @@ hypridle
 hyprland
 hyprlock
 hyprpaper
+hyprshot
 kitty
 kde
 wofi
-waybar
+waybar / quickshell
 swaync
 wal
